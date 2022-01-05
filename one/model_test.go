@@ -7,5 +7,5 @@ import (
 
 func Test_10(t *testing.T) {
 	fmt.Printf("%s", "d")
-	fmt.Println("end\n")
+	fmt.Println("end")
 }
