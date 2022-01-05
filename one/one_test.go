@@ -46,7 +46,8 @@ func function2() {
 
 func TestMain(t *testing.T) {
 	// a()
-	b()
+	// b()
+	t1()
 }
 
 func a() {
@@ -60,4 +61,22 @@ func b() {
 	for i := 0; i < 5; i++ {
 		defer fmt.Printf("%d\n", i)
 	}
+}
+
+func t1() {
+	// for i := 0; ; i++ {
+	// 	fmt.Println("Value of i is now:", i)
+	// }
+
+	// s := "a"
+	// for s != "aaaaaa" {
+	// 	fmt.Println("%s", s)
+	// 	s = s + "a"
+	// }
+
+	for i, j, s := 0, 5, "a"; i < 3 && j < 100 && s != "aaaaa"; i, j,
+		s = i+1, j+1, s+"a" {
+		fmt.Println("Value of i, j, s:", i, j, s)
+	}
+
 }
