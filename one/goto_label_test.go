@@ -20,3 +20,11 @@ LABEL1:
 		}
 	}
 }
+
+func TestFor1(t *testing.T) {
+	str := "Go is a beautiful language!"
+	fmt.Printf("The length of str is: %d\n", len(str))
+	for i, c := range str {
+		fmt.Printf("Character on position %d is: %c \n", i, c)
+	}
+}
