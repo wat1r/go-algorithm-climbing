@@ -30,8 +30,6 @@ func main() {
 	// // fmt.Println(bobnpt.name)
 	// bob.describe()
 
-
-
 	fmt.Println("hah")
 	// pp := &person{name: "Bob", age: 42, gender: "Male"}
 	// pp.describe()

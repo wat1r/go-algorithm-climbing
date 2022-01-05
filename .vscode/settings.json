@@ -3,8 +3,8 @@
     "workbench.colorCustomizations": {
         // "editor.background": "#1f1f2c",
         // "editorGutter.background": "#1d1f2e"
-        "terminal.background":"#FFFFFF",
-        "terminal.foreground":"#0e0808",
+        // "terminal.background":"#FFFFFF",
+        // "terminal.foreground":"#0e0808",
         "terminalCursor.background":"#333333",
         "terminalCursor.foreground":"#333333",
         "terminal.ansiBlack":"#FFFFFF",
